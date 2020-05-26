@@ -1,0 +1,22 @@
+{
+  "name": "studying-sass-with-rocketseat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "menu.js",
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsisFraga/studying-sass-with-rocketseat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsisFraga/studying-sass-with-rocketseat/issues"
+  },
+  "homepage": "https://github.com/IsisFraga/studying-sass-with-rocketseat#readme",
+  "devDependencies": {
+    "electron": "^8.2.5"
+  }
+}
