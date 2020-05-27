@@ -1,4 +1,27 @@
 $primary-color: #7159c1;
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin boundaries($isAuto: true) {
+    width: 90%;
+    max-width: 980px;
+    @if $isAuto {
+        margin: auto;
+    }
+}
+
+@function set-text-color($color) {
+    @if lightness($color) > 70 {
+        @return #333;
+    } @else {
+        @return #fff;
+    }
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
